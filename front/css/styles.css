@@ -78,18 +78,18 @@ p{
 
 .icono-lupa{
 
-    width: 70%;
+    width: 100%;
 }
 
 nav div{
 
     height: 4rem;
-    width: 4%;
+    width: 2%;
     border-top: 2px solid #000;
     border-bottom: 2px solid #000;
     border-right: 2px solid #000;
     background-color: #FFFF;
-    margin-left: -8rem;
+    margin-left: -16rem;
     border-top-right-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
 }
