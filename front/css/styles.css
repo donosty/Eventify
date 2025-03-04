@@ -1,0 +1,95 @@
+
+/* GLOBALES */
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1REM = 10px */
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+
+    font-family:  "Nunito";
+}
+
+h1, h2, h3{
+
+    font-family: "Red Hat Display";
+    font-size: 2rem;
+}
+
+p{
+
+    color: #000;
+}
+
+/* HEADER */
+
+.header-index{
+
+    padding: 2rem;
+    background-color: #26ade4;
+}
+
+.nav-index{
+
+    width: 100%;
+    height: 100%;
+}
+
+.link {
+
+    text-decoration: none;
+    color: #000;
+    vertical-align: middle;
+    font-family: "Red Hat Display";
+    transition: color 0.3s ease;
+}
+
+.link:hover{
+
+    color: #FFFF;
+}
+
+.link-header-index{
+
+    font-size: 2rem;
+}
+
+.input{
+
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 0.5rem;
+}
+
+.input::placeholder{
+
+    color: #000;
+}
+
+.input-header-index{
+
+    width: 50%;
+    font-size: 2rem;
+}
+
+.icono-lupa{
+
+    width: 70%;
+}
+
+nav div{
+
+    height: 4rem;
+    width: 4%;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+    background-color: #FFFF;
+    margin-left: -8rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
