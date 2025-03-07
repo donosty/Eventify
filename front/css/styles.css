@@ -127,32 +127,84 @@ nav div{
 
 
 /* INICIO DE SESION */
-.div_form_sesion{
+.container_div_form{
+
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.div_form_sesion,
+.div_form_registro{
+
+    margin: 0 auto;
+    padding: 3rem;
+    width: 25%;
+}
+
+.titulo_sesion{
+
+    margin-top: 4rem;
+}
+
+.titulo_sesion h3{
+
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.form_sesion,
+.form_registro{
 
     width: 100%;
-    margin: 8rem;
-    padding: 3rem;
-}
-
-.form_sesion{
-
-    width: 20%;
-    border: 2px solid #000;
     padding: 1rem;
+    margin-left: 0 auto;
 }
 
-.form_sesion div{
+.form_sesion div,
+.form_registro div{
 
     display: block;
 }
 
 .form_sesion div label{
 
-    font-size: 1.9rem;
-    font-weight: bold;
+    font-size: 1.8rem;
+    display: block;
+}
+
+.form_registro div label{
+
+    font-size: 1.8rem;
+    display: block;
 }
 
 .form_sesion div input{
 
-    border: 1px solid black;
+    font-size: 1.8rem;
+    width: 100%;
+}
+
+.form_registro div input{
+
+    font-size: 1.8rem;
+    width: 100%;
+}
+
+.form_sesion button,
+.form_registro button{
+
+    background-color: #4dbce9;
+    border: none;
+    font-size: 2rem;
+    width: 75%;
+    color: #FFFF;
+    margin: 0 auto;
+    transition: color 0.4s ease;
+}
+
+.form_sesion button:hover,
+.form_registro button:hover{
+
+    background-color: #26ade4;
+    color: #000;
 }

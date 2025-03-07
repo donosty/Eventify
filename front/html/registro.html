@@ -24,30 +24,40 @@
             <a class="link link-header-index fw-bold" href="index.html">EVENTIFY</a>
             <a class="link link-header-index" href="#">Categorias</a>
            
-            <a class="link link-header-index" href="registro.html">Registrarse</a>
+            <a class="link link-header-index" href="inicio_sesion.html">Iniciar Sesion</a>
         </nav>
     </header>
 
     <div class="titulo_sesion">
-        <h3>Ingresa a tu cuenta <span class="fw-bold">EVENTIFY</span></h3>
+        <h3>Registrate en <span class="fw-bold">EVENTIFY</span></h3>
     </div>
 
     <div class="container_div_form">
-        <div class="div_form_sesion">
+        <div class="div_form_registro">
 
-            <form action="" class="form_sesion d-flex flex-column">
-    
+            <form action="" class="form_registro d-flex flex-column">
+
                 <div>
-                    <label for="correo_sesion">Correo</label>
-                    <input id="correo_sesion" type="email" required placeholder="ejemplo@gmail.com">
+                    <label for="nombre_registro">Nombre</label>
+                    <input id="nombre_registro" type="text" required placeholder="Pancho">
+                </div>
+
+                <div class="mt-3">
+                    <label for="apellido_registro">Apellido</label>
+                    <input id="apellido_registro" type="text" required placeholder="Perez">
                 </div>
     
-                <div class="mt-5">
-                    <label for="contrasena_sesion">Contrasena</label>
-                    <input id="contrasena_sesion" type="password" required placeholder="password">
+                <div class="mt-3">
+                    <label for="correo_registro">Correo</label>
+                    <input id="correo_registro" type="email" required placeholder="ejemplo@gmail.com">
                 </div>
     
-                <button class="mt-5" type="submit">Ingresar</button>
+                <div class="mt-3">
+                    <label for="contrasena_registro">Contrasena</label>
+                    <input id="contrasena_registro" type="password" required placeholder="password">
+                </div>
+    
+                <button class="mt-5" type="submit">Registrarse</button>
 
                 <p class="mt-3 text-center fs-3">Si no tienes una cuenta, da click en <span class="fw-bold">"Registrarse"</span></p>
 
