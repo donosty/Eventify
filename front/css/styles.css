@@ -235,8 +235,8 @@ footer .col div img{
     width: 100%;
 }
 
-.form_sesion button,
-.form_registro button{
+.boton_activado_sesion,
+.boton_activado_registro{
 
     background-color: #4dbce9;
     border: none;
@@ -247,8 +247,19 @@ footer .col div img{
     transition: color 0.4s ease;
 }
 
-.form_sesion button:hover,
-.form_registro button:hover{
+.boton_desactivado_registro,
+.boton_desactivado_sesion{
+
+    background-color: #a1d4f3;
+    border: none;
+    font-size: 2rem;
+    width: 75%;
+    color: #000;
+    margin: 0 auto;
+}
+
+.form_sesion .boton_activado_sesion:hover,
+.form_registro .boton_activado_registro:hover{
 
     background-color: #26ade4;
     color: #000;
