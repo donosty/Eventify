@@ -23,7 +23,7 @@
     <header class="header-index">
         <nav class="nav-index d-flex justify-content-around align-items center">
             <a class="link link-header-index fw-bold" href="#">EVENTIFY</a>
-            <a class="link link-header-index" href="#">Categorias</a>
+            <a class="link link-header-index" id="categorias" href="#">Categorias</a>
             <input class="input input-header-index" type="text" placeholder="Busca un evento">
             <div>
                 <a href="#"><img class="icono-lupa" src="../images/iconos/lupa.png" alt="lupa"></a>
@@ -60,9 +60,11 @@
         <div>
             <div class="row">
                 <div class="col">
-                    <a href="#">Terminos y condiciones</a>
-                    <a href="#">Aviso de privacidad</a>
-                    <a href="#">Derechos de autor</a>
+                    <div class="container-links-footer">
+                        <a href="#">Terminos y condiciones</a>
+                        <a href="#">Aviso de privacidad</a>
+                        <a href="#">Derechos de autor</a>
+                    </div>
                 </div>
 
                 <div class="col">
@@ -70,7 +72,17 @@
                 </div>
 
                 <div class="col">
+                    <div class="d-flex flex-column container-imagenes-footer">
+                        <div class="mb-2 d-flex justify-content-evenly">
+                            <img src="../images/iconos/facebook.png" alt="facebook">
+                            <img src="../images/iconos/instagram.png" alt="instagram">
+                        </div>
 
+                        <div class="d-flex justify-content-evenly">
+                            <img src="../images/iconos/gmail.png" alt="gmail">
+                            <img src="../images/iconos/gorjeo.png" alt="twitter">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
