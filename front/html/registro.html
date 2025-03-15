@@ -35,31 +35,31 @@
     <div class="container_div_form">
         <div class="div_form_registro">
 
-            <form action="" class="form_registro d-flex flex-column">
+            <form action="" id="form_registro" class="form_registro d-flex flex-column">
 
                 <div>
                     <label for="nombre_registro">Nombre</label>
-                    <input id="nombre_registro" type="text" required placeholder="Pancho">
+                    <input name="nombre" id="nombre_registro" type="text" required placeholder="Pancho">
                 </div>
 
                 <div class="mt-3">
                     <label for="apellido_registro">Apellido</label>
-                    <input id="apellido_registro" type="text" required placeholder="Perez">
+                    <input name="apellido" id="apellido_registro" type="text" required placeholder="Perez">
                 </div>
     
                 <div class="mt-3">
                     <label for="correo_registro">Correo</label>
-                    <input id="correo_registro" type="email" required placeholder="ejemplo@gmail.com">
+                    <input name="email" id="correo_registro" type="email" required placeholder="ejemplo@gmail.com">
                 </div>
     
                 <div class="mt-3">
                     <label for="contrasena_registro">Contrasena</label>
-                    <input id="contrasena_registro" type="password" required placeholder="password">
+                    <input name="contraseña" id="contrasena_registro" type="password" required placeholder="password">
                 </div>
     
                 <button class="mt-5 boton_desactivado_registro" type="submit" disabled>Registrarse</button>
 
-                <p class="mt-3 text-center fs-3">Si no tienes una cuenta, da click en <span class="fw-bold">"Registrarse"</span></p>
+                <p class="mt-3 text-center fs-3">Si ya tienes una cuenta, haz click en <span class="fw-bold">"Iniciar Sesion"</span></p>
 
             </form>
         </div>
