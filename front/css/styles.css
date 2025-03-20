@@ -84,7 +84,7 @@ p{
 }
 .input-header-categorias{
 
-    width: 50%;
+    width: 40%;
     font-size: 2rem;
 }
 
@@ -287,3 +287,40 @@ footer .col div img{
     color: #000;
 }
 
+/* CATEGORIAS */
+
+.container-aside-categorias{
+
+    width: 20%;
+    border-right: 5px solid #26ade4;
+    position: fixed;
+}
+
+.aside-categorias{
+
+    width: 100%;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+}
+
+.link-aside-categorias{
+
+    display: block;
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: #000;
+}
+
+.main-categorias{
+
+    width: 80%;
+    margin-left: 20%;
+}
+
+.container-main-categorias{
+
+    overflow-y: auto;
+}
