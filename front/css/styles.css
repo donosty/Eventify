@@ -14,13 +14,6 @@ body{
     font-family:  "Nunito";
 }
 
-footer{
-
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
 h1, h2, h3{
 
     font-family: "Red Hat Display";
@@ -44,6 +37,13 @@ p{
 
     width: 100%;
     height: 100%;
+}
+
+.nav-categorias{
+
+    padding: 2rem;
+    background-color: #26ade4;
+    width: 100%;
 }
 
 .link {
@@ -84,7 +84,7 @@ p{
 }
 .input-header-categorias{
 
-    width: 40%;
+    width: 65%;
     font-size: 2rem;
 }
 
@@ -140,6 +140,17 @@ nav .div-header-categorias{
 }
 
 /* FOOTER */
+footer{
+
+    width: 100%;
+    z-index: 1;
+}
+
+.footer-fixed{
+
+    position: fixed;
+    bottom: 0;
+}
 
 footer div{
 
@@ -185,11 +196,6 @@ footer .col div img{
 
     width: 100%;
 }
-
-
-
-
-
 
 
 
@@ -292,8 +298,10 @@ footer .col div img{
 .container-aside-categorias{
 
     width: 20%;
-    border-right: 5px solid #26ade4;
+    height: 100%;
+    border-right: 6px solid #26ade4;
     position: fixed;
+    margin-top: 8rem;
 }
 
 .aside-categorias{
@@ -316,11 +324,13 @@ footer .col div img{
 
 .main-categorias{
 
-    width: 80%;
-    margin-left: 20%;
+    width: 75%;
+    margin-left: 22%;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
 }
 
-.container-main-categorias{
+.main-categorias-contenido{
 
-    overflow-y: auto;
+    width: 100%;
 }
